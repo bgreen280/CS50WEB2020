@@ -1,6 +1,6 @@
 This course was taken in Fall 2020.
 
-THe course is divided between two folders: project and week.
+The course is divided between two folders: project and week.
 
 PROJECT contained five projects completed throughout the course.
 
