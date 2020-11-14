@@ -2,11 +2,22 @@
 <html lang="en">
     <head>
         <title>Image Search</title>
+        <link rel="stylesheet" href="./stylesheet.css">
     </head>
     <body>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./images.html">Images</a>
+            <a href="./advancedSearch.html">Advanced</a>
+        </nav>
+        <div>
+            <img src="./googlelogo_color_272x92dp.png" alt="Google Images Logo" >
+        </div>
         <form action="https://google.com/search">
             <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input type="hidden" name="tbm" value="isch">
+            <br>
+            <input type="submit" value="Google Image Search">
         </form>
     </body>
 </html>
