@@ -5,24 +5,30 @@
         <link rel="stylesheet" href="./stylesheet.css">
     </head>
     <body>
-        <nav>
+        <nav id="advancedSearchNavBar">
+            <!-- <img src="./GoogleLogo.png" alt="Google Logo" > -->
             <a href="./index.html">Home</a>
             <a href="./images.html">Images</a>
             <a href="./advancedSearch.html">Advanced</a>
         </nav>
-        <H1></H1>
-        <form action="https://google.com/search">
-            <input type="text" name="q" placeholder="search term">
+        <div>        
+            <h1>Advanced Search</h1>
+            <hr>
+        </div>
+        <form action="https://google.com/search" id="advancedSearchForm">
+            <label for="allWords">all these words: </label>
+            <input type="text" name="as_q" id="allWords" placeholder="all these words">
             <br>
-            <input type="text" name="as_q" placeholder="all these words">
+            <label for="exactWords">this exact word or phrase: </label>
+            <input type="text" name="as_epq" id="exactWords" placeholder="this exact word or phrase">
             <br>
-            <input type="text" name="as_epq" placeholder="this exact word or phrase">
+            <label for="anyWords">any of these words: </label>
+            <input type="text" name="as_oq" id="anyWords" placeholder="any of these words">
             <br>
-            <input type="text" name="as_eq" placeholder="any of these words">
+            <label for="noWords">none of these words: </label>
+            <input type="text" name="as_eq" id="noWords" placeholder="none of these words">
             <br>
-            <input type="text" name="as_nlo" placeholder="none of these words">
-            <br>
-            <input type="submit" value="Google Search" id="blueSubmit">
+            <input type="submit" value="Advanced Search" id="blueSubmit">
         </form>
     </body>
 </html>
