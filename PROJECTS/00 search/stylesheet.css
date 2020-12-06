@@ -22,6 +22,12 @@ form {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+label {
+  width: 180px;
+  display: inline-block;
+  text-align: right;
+}
+
 input[type="text"] {
   padding: 10px;
   border-radius: 50px;

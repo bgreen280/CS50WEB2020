@@ -1,0 +1,66 @@
+--------------------------
+todo:
+--------------------------
+required:
+add "I'm feeling lucky"
+
+desired:
+style advanced search nav bar
+convert advanced search to table with @media 
+align search button 
+
+--------------------------
+advanced search page audit:
+--------------------------
+all of These = ok
+this exact word or phrase =  ok
+any of these words = ok
+none of these words = ok
+
+--------------------------
+advanced search properities:
+--------------------------
+https://www.google.com/search?
+as_q=dog&
+as_epq=&
+as_oq=&
+as_eq=&
+as_nlo=&
+as_nhi=&
+lr=&cr=&
+as_qdr=all&
+as_sitesearch=&
+as_occt=any&
+safe=images&
+as_filetype=&
+tbs=
+
+https://www.google.com/search
+?as_q=&
+as_epq=dog+sitter&
+as_oq=&
+as_eq=&
+as_nlo=&
+as_nhi=&
+lr=&cr=&
+as_qdr=all&
+as_sitesearch=&
+as_occt=any&
+safe=images&
+as_filetype=&
+tbs=
+
+https://www.google.com/search?
+as_q=&
+as_epq=&
+as_oq=philadelphia+phillies+mascot&as_eq=&
+as_nlo=&
+as_nhi=&
+lr=&
+cr=&
+as_qdr=all&
+as_sitesearch=&
+as_occt=any&
+safe=images&
+as_filetype=&
+tbs=
