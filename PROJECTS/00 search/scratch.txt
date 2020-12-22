@@ -2,12 +2,9 @@
 todo:
 --------------------------
 required:
-add "I'm feeling lucky"
 
 desired:
-style advanced search nav bar
 convert advanced search to table with @media 
-align search button 
 
 --------------------------
 advanced search page audit:
