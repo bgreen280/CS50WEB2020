@@ -8,10 +8,13 @@ def index1(request):
     return render(request, "hello/index.html")
 
 def brian(request):
-    return HttpResponse("Hello, Brian!")
+    return HttpResponse("Hello, Brian Guy!")
 
 def david(request):
-    return HttpResponse("Hello, David!")
+    return HttpResponse("Hello, David Teacher!")
+
+def bernie(request):
+    return HttpResponse("Hello, Bernie Green!")
 
 def greet0(request, name):
     return HttpResponse(f"Hello, {name.capitalize()}!")
